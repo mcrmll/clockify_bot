@@ -1,21 +1,22 @@
 # ClockifyBot
 
-**TODO: Add description**
+**Your Slack bot for Clockify!**
 
-## Installation
+## How to use?
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `clockify_bot` to your list of dependencies in `mix.exs`:
+You can deploy your bot with Gigalixir and use it as you want! 
 
-```elixir
-def deps do
-  [
-    {:clockify_bot, "~> 0.1.0"}
-  ]
-end
-```
+This version of Clockify_bot works only with the free version of Clockify using the user API_KEY, which is a a personal info, so, right now, the only way to use this bot is deploying and config it by yourself!
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/clockify_bot](https://hexdocs.pm/clockify_bot).
+## How to configure my own slack bot?
 
+Follow all instructions given from Slack to create your bot, after that, add those commands below:
+
+/config - Configure your Clockify API KEY
+
+/add_hours - add worked hours to a Clockify project
+
+/info - All you need to know about me!
+
+
+Now you can use as you want!
